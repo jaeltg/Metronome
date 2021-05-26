@@ -4,7 +4,7 @@ const MetronomeBox = () => {
 
     return(
         <>
-        <h1>Metronome</h1>
+        <h1>METRONOME</h1>
         <SlideBar />
         </>
     );

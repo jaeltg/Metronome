@@ -20,7 +20,7 @@ const SlideBar = () => {
     return(
         <>
             <PlayButton value={value}/>
-            <h4>{value}</h4>
+            <h4 className="BPM">{value} BPM</h4>
             <button className="plus-minus" value={value} onClick={subtractOne}>-</button>
             <input type="range" id="BPM" name="BPM" min="40" max="218" step="1" onChange={showValue} value={value}/>
             <button className="plus-minus" value={value} onClick={addOne}>+</button>
