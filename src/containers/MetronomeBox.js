@@ -8,7 +8,6 @@ const MetronomeBox = () => {
         <>
         <h1>Metronome</h1>
         <PlayButton />
-        <StopButton />
         <SlideBar />
         </>
     );
