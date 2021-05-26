@@ -1,4 +1,6 @@
 import {useState} from 'react';
+import PlayButton from '../components/PlayButton';
+import "./PlayButton.css"
 
 const SlideBar = () => {
 
@@ -17,10 +19,11 @@ const SlideBar = () => {
 
     return(
         <>
+            <PlayButton value={value}/>
             <h4>{value}</h4>
-            <button value={value} onClick={subtractOne}>-</button>
+            <button className="plus-minus" value={value} onClick={subtractOne}>-</button>
             <input type="range" id="BPM" name="BPM" min="40" max="218" step="1" onChange={showValue} value={value}/>
-            <button value={value} onClick={addOne}>+</button>
+            <button className="plus-minus" value={value} onClick={addOne}>+</button>
         </>
 
     )

@@ -1,0 +1,13 @@
+.plus-minus {
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.plus-minus:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}

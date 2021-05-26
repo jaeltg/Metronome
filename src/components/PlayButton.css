@@ -1,0 +1,18 @@
+img {
+    height:40px;
+    width:50px;
+    border-radius: 50%;
+}
+
+.play-stop {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    font-size: 40px
+}
+
+img:hover {
+    zoom: 110%;
+    cursor: pointer;
+}
+
